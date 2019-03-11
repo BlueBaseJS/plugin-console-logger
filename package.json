@@ -1,0 +1,56 @@
+{
+  "name": "@bluebase/bluebase-debugger-console",
+  "version": "0.1.0",
+  "description": "",
+  "keywords": [],
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "typings": "dist/types/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "author": "BlueBast Team <code@blueb  ast.com>",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "scripts": {
+    "storybook:start": "bluebase storybook:start",
+    "web:start": "bluebase web:start"
+  },
+  "devDependencies": {
+    "@bluebase/cli-essentials": "^0.0.2",
+    "@bluebase/core": "^4.0.0-aplha.10",
+    "@bluebase/storybook-addon": "^3.0.0",
+    "@blueeast/tslint-config-blueeast": "^0.7.0",
+    "@storybook/addon-actions": "^5.0.0",
+    "@storybook/addon-links": "^5.0.0",
+    "@storybook/react": "^5.0.0",
+    "@types/compression": "^0.0.36",
+    "@types/deepmerge": "^2.2.0",
+    "@types/react": "^16.8.7",
+    "@types/react-native": "^0.57.38",
+    "@types/source-map-support": "^0.5.0",
+    "@types/uuid": "^3.4.4",
+    "babel-loader": "^8.0.4",
+    "babel-preset-bluebase": "^2.3.0",
+    "typescript": "^3"
+  },
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/runtime": "^7.3.4",
+    "compression": "^1.7.3",
+    "deepmerge": "^3.2.0",
+    "expo": "^31.0.0",
+    "metro-react-native-babel-preset": "^0.53.0",
+    "react": "^16",
+    "react-dom": "^16.4.2",
+    "react-native": "^0.57.0",
+    "source-map-support": "^0.5.10",
+    "uuid": "^3.3.2"
+  }
+}
