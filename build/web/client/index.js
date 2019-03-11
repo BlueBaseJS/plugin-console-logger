@@ -63,7 +63,7 @@
 /******/
 /******/ 	var hotApplyOnUpdate = true;
 /******/ 	// eslint-disable-next-line no-unused-vars
-/******/ 	var hotCurrentHash = "7ac87e6fae18fe34d483";
+/******/ 	var hotCurrentHash = "7546e8fb24c85b8f993a";
 /******/ 	var hotRequestTimeout = 10000;
 /******/ 	var hotCurrentModuleData = {};
 /******/ 	var hotCurrentChildModule;
@@ -73100,9 +73100,9 @@ module.exports = function update(currentHash, options) {
 
 /***/ }),
 
-/***/ "../../../../../.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/node_modules/webpack-hot-client/client/index.js?566026a9-0999-4b14-83b6-d4bed1d5d1b6":
+/***/ "../../../../../.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/node_modules/webpack-hot-client/client/index.js?88fa81ba-3ac9-4d31-b7f3-da111455d806":
 /*!************************************************************************!*\
-  !*** (webpack)-hot-client/client?566026a9-0999-4b14-83b6-d4bed1d5d1b6 ***!
+  !*** (webpack)-hot-client/client?88fa81ba-3ac9-4d31-b7f3-da111455d806 ***!
   \************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
@@ -73121,7 +73121,7 @@ module.exports = function update(currentHash, options) {
   window.__webpackHotClient__ = {}; // this is piped in at runtime build via DefinePlugin in /lib/plugins.js
   // eslint-disable-next-line no-unused-vars, no-undef
 
-  var options = {"allEntries":false,"autoConfigure":true,"host":{"client":"0.0.0.0","server":"0.0.0.0"},"hmr":true,"logLevel":"info","logTime":false,"port":{"client":0,"server":0},"reload":true,"send":{"errors":true,"warnings":true},"server":null,"stats":{"context":"/home/asadrazzaq/Documents/Projects/BlueEast/BlueBase/plugin-console-logger"},"validTargets":["web"],"test":false,"log":{"type":"LogLevel","options":{"factory":null,"level":"info","name":"hot","prefix":{"template":"{{level}} \u001b[90m｢{{name}}｣\u001b[39m: "},"unique":true,"timestamp":false},"methodFactory":{"options":{"template":"{{level}} \u001b[90m｢{{name}}｣\u001b[39m: "}},"name":"hot","currentLevel":2},"webSocket":{"host":"0.0.0.0","port":42617}};
+  var options = {"allEntries":false,"autoConfigure":true,"host":{"client":"0.0.0.0","server":"0.0.0.0"},"hmr":true,"logLevel":"info","logTime":false,"port":{"client":0,"server":0},"reload":true,"send":{"errors":true,"warnings":true},"server":null,"stats":{"context":"/home/asadrazzaq/Documents/Projects/BlueEast/BlueBase/plugin-console-logger"},"validTargets":["web"],"test":false,"log":{"type":"LogLevel","options":{"factory":null,"level":"info","name":"hot","prefix":{"template":"{{level}} \u001b[90m｢{{name}}｣\u001b[39m: "},"unique":true,"timestamp":false},"methodFactory":{"options":{"template":"{{level}} \u001b[90m｢{{name}}｣\u001b[39m: "}},"name":"hot","currentLevel":2},"webSocket":{"host":"0.0.0.0","port":32773}};
 
   var log = __webpack_require__(/*! ./log */ "../../../../../.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/node_modules/webpack-hot-client/client/log.js"); // eslint-disable-line import/order
 
@@ -83178,41 +83178,43 @@ var LoggerPlugin = Object(_bluebase_core__WEBPACK_IMPORTED_MODULE_0__["createPlu
     },
     'bluebase.logger.log': function bluebaseLoggerLog(message, _ref, BB) {
       var params = _ref.params;
-      console.group("%cBlueBase", "background-image: url('https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LPjsIbS1DfhqT8BS3Ui%2Favatar.png?generation=1540566320738340&alt=media') ; background-size: 12px; background-repeat : no-repeat ; background-position:left ; padding-left:18px");
-      console.log(message);
-      console.log(params);
-      console.log(BB);
+      console.group("%cBlueBase", "background-image: url('../assets/common/logo.png') ; background-size: 12px; background-repeat : no-repeat ; background-position:left ; padding-left:18px");
+      console.log(message, 'background: green; color: white; display: block;');
+      console.log("Params: ", params);
+      console.log("BB: ", BB);
       console.groupEnd();
     },
     'bluebase.logger.info': function bluebaseLoggerInfo(message, _ref2, BB) {
       var params = _ref2.params;
       console.group("%cBlueBase", "background-image: url('https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LPjsIbS1DfhqT8BS3Ui%2Favatar.png?generation=1540566320738340&alt=media') ; background-size: 12px; background-repeat : no-repeat ; background-position:left ; padding-left:18px");
       console.info(message);
-      console.info(params);
-      console.info(BB);
+      console.info("Params: ", params);
+      console.info("BB: ", BB);
       console.groupEnd();
     },
     'bluebase.logger.debug': function bluebaseLoggerDebug(message, _ref3, BB) {
       var params = _ref3.params;
       console.group("%cBlueBase", "background-image: url('https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LPjsIbS1DfhqT8BS3Ui%2Favatar.png?generation=1540566320738340&alt=media') ; background-size: 12px; background-repeat : no-repeat ; background-position:left ; padding-left:18px");
       console.debug(message);
-      console.debug(params);
-      console.debug(BB);
+      console.debug("Params: ", params);
+      console.debug("BB: ", BB);
       console.groupEnd();
     },
-    // 'bluebase.logger.warn': (message: string, { params }: any, BB: BlueBase) => {
-    // console.group("%cBlueBase", "background-image: url('https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LPjsIbS1DfhqT8BS3Ui%2Favatar.png?generation=1540566320738340&alt=media') ; background-size: 12px; background-repeat : no-repeat ; background-position:left ; padding-left:18px");
-    // console.warn(message);
-    // console.warn(params);
-    // console.warn(BB);
-    // console.groupEnd();
-    // },
-    'bluebase.logger.error': function bluebaseLoggerError(message, _ref4, BB) {
+    'bluebase.logger.warn': function bluebaseLoggerWarn(message, _ref4, BB) {
       var params = _ref4.params;
       console.group("%cBlueBase", "background-image: url('https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LPjsIbS1DfhqT8BS3Ui%2Favatar.png?generation=1540566320738340&alt=media') ; background-size: 12px; background-repeat : no-repeat ; background-position:left ; padding-left:18px");
+      console.warn(message);
+      console.warn("Params: ", params);
+      console.warn("BB: ", BB);
+      console.groupEnd();
+      return message;
+    },
+    'bluebase.logger.error': function bluebaseLoggerError(message, _ref5, BB) {
+      var params = _ref5.params;
+      console.group("%cBlueBase", "background-image: url('https://blobscdn.gitbook.com/v0/b/gitbook-28427.appspot.com/o/spaces%2F-LPjsIbS1DfhqT8BS3Ui%2Favatar.png?generation=1540566320738340&alt=media') ; background-size: 12px; background-repeat : no-repeat ; background-position:left ; padding-left:18px");
       console.error(message);
-      console.error(params);
-      console.error(BB);
+      console.error("Params: ", params);
+      console.error("BB: ", BB);
       console.groupEnd();
     }
   }
@@ -83222,12 +83224,12 @@ var LoggerPlugin = Object(_bluebase_core__WEBPACK_IMPORTED_MODULE_0__["createPlu
 
 /***/ 1:
 /*!************************************************************************************************************************************************************************!*\
-  !*** multi webpack-hot-client/client?566026a9-0999-4b14-83b6-d4bed1d5d1b6 /home/asadrazzaq/.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/lib/client/index ***!
+  !*** multi webpack-hot-client/client?88fa81ba-3ac9-4d31-b7f3-da111455d806 /home/asadrazzaq/.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/lib/client/index ***!
   \************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! webpack-hot-client/client?566026a9-0999-4b14-83b6-d4bed1d5d1b6 */"../../../../../.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/node_modules/webpack-hot-client/client/index.js?566026a9-0999-4b14-83b6-d4bed1d5d1b6");
+__webpack_require__(/*! webpack-hot-client/client?88fa81ba-3ac9-4d31-b7f3-da111455d806 */"../../../../../.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/node_modules/webpack-hot-client/client/index.js?88fa81ba-3ac9-4d31-b7f3-da111455d806");
 module.exports = __webpack_require__(/*! /home/asadrazzaq/.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/lib/client/index */"../../../../../.local/share/@bluebase/cli/node_modules/@bluebase/cli-web/lib/client/index.js");
 
 
