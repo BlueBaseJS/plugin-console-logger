@@ -1,5 +1,9 @@
 {
   "extends": [
     "@bluebase/code-standards/tslint"
-  ]
+  ],
+  "rules": {
+    "no-console": false,
+    "max-line-length": false
+  }
 }
