@@ -9,6 +9,8 @@ node_js:
   - lts/*
 script:
   -  yarn run test
+  - export CODECOV_TOKEN="f55945a4-d941-424b-8001-80a4cf714d0a"
+  - npm install codecov -g
   -  yarn run report-coverage
   -  yarn run build
 before_install:
