@@ -10,6 +10,7 @@ test('Plugin should be correctly registered', async () => {
 	expect(BB.Plugins.has('@bluebase/plugin-console-logger')).toBeTruthy();
 });
 
+
 describe('Console Tests', () => {
 	it('should logs output', async () => {
 		const BB = new BlueBase();
@@ -86,5 +87,4 @@ describe('Console Tests', () => {
 		await BB.boot()
 		jest.spyOn(global.console, 'info')
 	})
-
 })
