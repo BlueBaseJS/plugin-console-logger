@@ -9,10 +9,12 @@ node_js:
   - lts/*
 script:
   -  yarn run test
-  - export CODECOV_TOKEN="f55945a4-d941-424b-8001-80a4cf714d0a"
-  - npm install codecov -g
   -  yarn run report-coverage
   -  yarn run build
+
+env:
+  - export CODECOV_TOKEN="f55945a4-d941-424b-8001-80a4cf714d0a"
+  
 before_install:
 # package-lock.json was introduced in npm@5
   - '[[ $(node -v) =~ ^v9.*$ ]] || npm install -g npm@latest' # skipped when using node 9
