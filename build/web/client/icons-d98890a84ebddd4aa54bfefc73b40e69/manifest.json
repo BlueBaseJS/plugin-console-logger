@@ -1,6 +1,6 @@
 {
-  "name": "@bluebase/bluebase-debugger-console",
-  "short_name": "@bluebase/bluebase-debugger-console",
+  "name": "@bluebase/plugin-console-logger",
+  "short_name": "@bluebase/plugin-console-logger",
   "description": null,
   "dir": "auto",
   "lang": "en-US",

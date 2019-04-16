@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "name": "@bluebase/bluebase-debugger-console",
+  "name": "@bluebase/plugin-console-logger",
   "description": null,
   "icons": {
     "60": "firefox_app_60x60.png",
