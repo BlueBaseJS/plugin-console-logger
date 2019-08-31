@@ -89,7 +89,7 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.3",
     "@bluebase/cli-essentials": "^0.0.4",
-    "@bluebase/code-standards": "^1.0.2",
+    "@bluebase/code-standards": "^1.4.0",
     "@bluebase/core": "^4.0.0-aplha.17",
     "@bluebase/storybook-addon": "^3.0.0",
     "@blueeast/tslint-config-blueeast": "^0.7.0",
