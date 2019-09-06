@@ -1,6 +1,6 @@
 {
   "name": "@bluebase/plugin-console-logger",
-  "description": "A BlueBase plugin boilerplate! ",
+  "description": "A BlueBase plugin boilerplate!",
   "author": "BlueEast Team <code@blueeast.com>",
   "version": "1.0.1",
   "main": "dist/index.js",
