@@ -6,10 +6,7 @@
 		"@semantic-release/changelog",
         ["@semantic-release/exec", {
         "prepareCmd": "yarn fix:md"
-        }],
-        "@semantic-release/npm",
-		"./scripts/version.js",
-        "@semantic-release/github"
+        }]
 	],
     "verifyConditions": ["@semantic-release/changelog", "@semantic-release/npm", "semantic-release-git-branches"],
     "prepare": [
