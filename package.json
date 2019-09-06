@@ -167,6 +167,7 @@
     "trailingComma": "es5"
   },
   "publishConfig": {
+    "registry": "http://benpm.mevris.io/",
     "access": "public"
   }
 }
