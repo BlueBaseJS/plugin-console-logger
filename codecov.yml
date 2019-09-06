@@ -3,8 +3,5 @@
     "javascript": {
       "enable_partials": true
     }
-  }, 
-  "codecov": {
-    "token": "f55945a4-d941-424b-8001-80a4cf714d0a"
   }
 }
