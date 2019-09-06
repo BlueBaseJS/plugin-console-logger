@@ -6,7 +6,16 @@
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "module": "dist/index.js",
-  "repository": "https://github.com/BlueBaseJS/plugin-console-logger",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlueBaseJS/plugin-console-logger"
+  },
+  "homepage": "https://github.com/BlueBaseJS/plugin-console-logger#readme",
+
+  "bugs": {
+		"url": "https://github.com/BlueBaseJS/plugin-console-logger/issues"
+  },
+  
   "license": "MIT",
   "keywords": [],
   "config": {},
@@ -89,10 +98,16 @@
     "@babel/cli": "^7.2.3",
     "@babel/core": "^7.4.3",
     "@bluebase/cli-essentials": "^0.0.4",
-    "@bluebase/code-standards": "^1.0.2",
+    "@bluebase/code-standards": "^1.4.0",
     "@bluebase/core": "^4.0.0-aplha.17",
     "@bluebase/storybook-addon": "^3.0.0",
     "@blueeast/tslint-config-blueeast": "^0.7.0",
+    "@semantic-release/changelog": "^3.0.4",
+    "@semantic-release/commit-analyzer": "^6.2.0",
+    "@semantic-release/exec": "^3.3.3",
+    "semantic-release-git-branches": "1.2.1",
+    "@semantic-release/npm": "^5.1.9",
+    "@semantic-release/release-notes-generator": "^7.2.0",
     "@types/compression": "^0.0.36",
     "@types/deepmerge": "^2.2.0",
     "@types/enzyme": "^3.9.0",
