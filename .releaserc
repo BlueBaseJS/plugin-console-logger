@@ -6,7 +6,9 @@
 		"@semantic-release/changelog",
         ["@semantic-release/exec", {
         "prepareCmd": "yarn fix:md"
-        }]
+        }],
+        "@semantic-release/npm",
+        "@semantic-release/github"
 	],
     "verifyConditions": ["@semantic-release/changelog", "@semantic-release/npm", "semantic-release-git-branches"],
     "prepare": [
@@ -19,7 +21,7 @@
       }
     ],
 
-    "publish": ["@semantic-release/github", "@qiwi/semantic-release-gh-pages-plugin"],
+    "publish": ["@semantic-release/github", "@semantic-release/npm", "@qiwi/semantic-release-gh-pages-plugin"],
 	"success": "@semantic-release/github",
 	"fail": "@semantic-release/github"
 }
