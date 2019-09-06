@@ -108,7 +108,7 @@
     "semantic-release-git-branches": "1.2.1",
     "@semantic-release/npm": "^5.1.9",
     "@semantic-release/release-notes-generator": "^7.2.0",
-    "@types/compression": "^0.0.36",
+    "@types/compression": "^1.0.1",
     "@types/deepmerge": "^2.2.0",
     "@types/enzyme": "^3.9.0",
     "@types/enzyme-adapter-react-16": "^1.0.5",
