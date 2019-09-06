@@ -19,7 +19,7 @@
       }
     ],
 
-    "publish": ["@semantic-release/github", "@qiwi/semantic-release-gh-pages-plugin"],
+    "publish": ["@semantic-release/github", "@qiwi/semantic-release-gh-pages-plugin", "@semantic-release/npm"],
 	"success": "@semantic-release/github",
 	"fail": "@semantic-release/github"
 }
