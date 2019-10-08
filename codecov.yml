@@ -1,7 +1,0 @@
-{
-  "parsers": {
-    "javascript": {
-      "enable_partials": true
-    }
-  }
-}

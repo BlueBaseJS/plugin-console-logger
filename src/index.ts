@@ -1,10 +1,13 @@
 import { BlueBase, createPlugin } from '@bluebase/core';
+
+import { VERSION } from './version';
+
 export default createPlugin({
 	categories: ['logging'],
 	discription: 'This plugin consoles the value',
 	key: '@bluebase/plugin-console-logger',
 	name: 'Plugin Console Logger',
-	version: '1.0.0',
+	version: VERSION,
 
 	filters: {
 		'bluebase.logger.debug': (message: string, { params }: any, BB: BlueBase) => {
@@ -16,6 +19,8 @@ export default createPlugin({
 			console.debug('Params: ', params);
 			console.debug('BB: ', BB);
 			console.groupEnd();
+
+			return message;
 		},
 		'bluebase.logger.error': (message: string, { params }: any, BB: BlueBase) => {
 			console.group(
@@ -26,6 +31,8 @@ export default createPlugin({
 			console.error('Params: ', params);
 			console.error('BB: ', BB);
 			console.groupEnd();
+
+			return message;
 		},
 
 		'bluebase.logger.info': (message: string, { params }: any, BB: BlueBase) => {
@@ -37,6 +44,8 @@ export default createPlugin({
 			console.info('Params: ', params);
 			console.info('BB: ', BB);
 			console.groupEnd();
+
+			return message;
 		},
 		'bluebase.logger.log': (message: string, { params }: any, BB: BlueBase) => {
 			// tslint:disable-next-line: max-line-length
@@ -48,6 +57,7 @@ export default createPlugin({
 			console.log('Params: ', params);
 			console.log('BB: ', BB);
 			console.groupEnd();
+
 			return message;
 		},
 		'bluebase.logger.warn': (message: string, { params }: any, BB: BlueBase) => {
@@ -59,6 +69,7 @@ export default createPlugin({
 			console.warn('Params: ', params);
 			console.warn('BB: ', BB);
 			console.groupEnd();
+
 			return message;
 		},
 	},
