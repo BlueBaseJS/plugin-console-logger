@@ -8,11 +8,7 @@
 		"paths": {
 			"*": ["typings/*"]
 		},
-		"types": [
-			"node",
-			"jest",
-			"mocha"
-		]
+		"types": ["node", "jest"]
 	},
 	"include": ["src/**/*.ts"],
 	"exclude": ["node_modules/**", "**/*.spec.ts", "**/*.test.ts", "**/*.stories.ts"],
