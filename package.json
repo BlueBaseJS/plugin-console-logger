@@ -93,7 +93,7 @@
     "babel-jest": "^24.9.0",
     "babel-loader": "^8.0.6",
     "babel-preset-bluebase": "^2.3.0",
-    "babel-preset-expo": "^7.0.0",
+    "babel-preset-expo": "^8.1.0",
     "codacy-coverage": "^3.4.0",
     "codecov": "^3.6.1",
     "enzyme": "^3.10.0",
